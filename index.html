@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       
+        <div class="app">
+            <input class="country" type="text" placeholder="Enter City here" spellcheck="false">
+            <button class="search"><img src="images/search.png" alt=""></button>
+        
+        
+            <p class="error">The city / country you entered in unknown.</p>
+        </div>
+        <div class="weather">
+            <img src="images/clear.png" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city"><br>New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" >
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <hr width="1" size="50" style="outline: 0; color: white; background-color: white; margin: 0 20px;" />
+                <div class="col">
+                    <img src="images/wind.png" >
+                    <div>
+                        <p class="wind">15 km/hr</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script type="module" src="config.js"></script>
+    <script type="module" defer src="script.js"></script>
+   
+</body>
+</html>
